@@ -12,32 +12,32 @@
 		D57750A2170457E700FFE722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57750A1170457E700FFE722 /* CoreGraphics.framework */; };
 		D57750A8170457E700FFE722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57750A6170457E700FFE722 /* InfoPlist.strings */; };
 		D57750AA170457E700FFE722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D57750A9170457E700FFE722 /* main.m */; };
-		D57750AE170457E700FFE722 /* ERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57750AD170457E700FFE722 /* ERAppDelegate.m */; };
+		D57750AE170457E700FFE722 /* IMRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57750AD170457E700FFE722 /* IMRAppDelegate.m */; };
 		D57750B0170457E700FFE722 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D57750AF170457E700FFE722 /* Default.png */; };
 		D57750B2170457E700FFE722 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D57750B1170457E700FFE722 /* Default@2x.png */; };
 		D57750B4170457E700FFE722 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D57750B3170457E700FFE722 /* Default-568h@2x.png */; };
 		D57750B7170457E700FFE722 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57750B5170457E700FFE722 /* MainStoryboard.storyboard */; };
-		D57750BA170457E700FFE722 /* ERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57750B9170457E700FFE722 /* ERViewController.m */; };
+		D57750BA170457E700FFE722 /* IMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57750B9170457E700FFE722 /* IMRViewController.m */; };
 		D57750C117045A5D00FFE722 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57750C017045A5D00FFE722 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D577509A170457E700FFE722 /* ExifReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExifReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D577509A170457E700FFE722 /* ImageMetadataReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMetadataReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D577509D170457E700FFE722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D577509F170457E700FFE722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D57750A1170457E700FFE722 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D57750A5170457E700FFE722 /* ExifReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExifReader-Info.plist"; sourceTree = "<group>"; };
+		D57750A5170457E700FFE722 /* ImageMetadataReader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImageMetadataReader.plist; sourceTree = "<group>"; };
 		D57750A7170457E700FFE722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D57750A9170457E700FFE722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D57750AB170457E700FFE722 /* ExifReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExifReader-Prefix.pch"; sourceTree = "<group>"; };
-		D57750AC170457E700FFE722 /* ERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERAppDelegate.h; sourceTree = "<group>"; };
-		D57750AD170457E700FFE722 /* ERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERAppDelegate.m; sourceTree = "<group>"; };
+		D57750AB170457E700FFE722 /* ImageMetadataReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageMetadataReader-Prefix.pch"; sourceTree = "<group>"; };
+		D57750AC170457E700FFE722 /* IMRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRAppDelegate.h; sourceTree = "<group>"; };
+		D57750AD170457E700FFE722 /* IMRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMRAppDelegate.m; sourceTree = "<group>"; };
 		D57750AF170457E700FFE722 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D57750B1170457E700FFE722 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D57750B3170457E700FFE722 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D57750B6170457E700FFE722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D57750B8170457E700FFE722 /* ERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERViewController.h; sourceTree = "<group>"; };
-		D57750B9170457E700FFE722 /* ERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERViewController.m; sourceTree = "<group>"; };
+		D57750B8170457E700FFE722 /* IMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRViewController.h; sourceTree = "<group>"; };
+		D57750B9170457E700FFE722 /* IMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMRViewController.m; sourceTree = "<group>"; };
 		D57750C017045A5D00FFE722 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,8 +59,7 @@
 		D5775091170457E700FFE722 = {
 			isa = PBXGroup;
 			children = (
-				D57750C017045A5D00FFE722 /* AssetsLibrary.framework */,
-				D57750A3170457E700FFE722 /* ExifReader */,
+				D57750A3170457E700FFE722 /* ImageMetaDataReader */,
 				D577509C170457E700FFE722 /* Frameworks */,
 				D577509B170457E700FFE722 /* Products */,
 			);
@@ -69,7 +68,7 @@
 		D577509B170457E700FFE722 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D577509A170457E700FFE722 /* ExifReader.app */,
+				D577509A170457E700FFE722 /* ImageMetadataReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +76,7 @@
 		D577509C170457E700FFE722 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D57750C017045A5D00FFE722 /* AssetsLibrary.framework */,
 				D577509D170457E700FFE722 /* UIKit.framework */,
 				D577509F170457E700FFE722 /* Foundation.framework */,
 				D57750A1170457E700FFE722 /* CoreGraphics.framework */,
@@ -84,26 +84,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D57750A3170457E700FFE722 /* ExifReader */ = {
+		D57750A3170457E700FFE722 /* ImageMetaDataReader */ = {
 			isa = PBXGroup;
 			children = (
-				D57750AC170457E700FFE722 /* ERAppDelegate.h */,
-				D57750AD170457E700FFE722 /* ERAppDelegate.m */,
+				D57750AC170457E700FFE722 /* IMRAppDelegate.h */,
+				D57750AD170457E700FFE722 /* IMRAppDelegate.m */,
 				D57750B5170457E700FFE722 /* MainStoryboard.storyboard */,
-				D57750B8170457E700FFE722 /* ERViewController.h */,
-				D57750B9170457E700FFE722 /* ERViewController.m */,
+				D57750B8170457E700FFE722 /* IMRViewController.h */,
+				D57750B9170457E700FFE722 /* IMRViewController.m */,
 				D57750A4170457E700FFE722 /* Supporting Files */,
 			);
-			path = ExifReader;
+			name = ImageMetaDataReader;
+			path = ImageMetadataReader;
 			sourceTree = "<group>";
 		};
 		D57750A4170457E700FFE722 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D57750A5170457E700FFE722 /* ExifReader-Info.plist */,
+				D57750A5170457E700FFE722 /* ImageMetadataReader.plist */,
 				D57750A6170457E700FFE722 /* InfoPlist.strings */,
 				D57750A9170457E700FFE722 /* main.m */,
-				D57750AB170457E700FFE722 /* ExifReader-Prefix.pch */,
+				D57750AB170457E700FFE722 /* ImageMetadataReader-Prefix.pch */,
 				D57750AF170457E700FFE722 /* Default.png */,
 				D57750B1170457E700FFE722 /* Default@2x.png */,
 				D57750B3170457E700FFE722 /* Default-568h@2x.png */,
@@ -114,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5775099170457E700FFE722 /* ExifReader */ = {
+		D5775099170457E700FFE722 /* ImageMetadataReader*/ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D57750BD170457E700FFE722 /* Build configuration list for PBXNativeTarget "ExifReader" */;
+			buildConfigurationList = D57750BD170457E700FFE722 /* Build configuration list for PBXNativeTarget "ImageMetadataReader" */;
 			buildPhases = (
 				D5775096170457E700FFE722 /* Sources */,
 				D5775097170457E700FFE722 /* Frameworks */,
@@ -126,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = ExifReader;
-			productName = ExifReader;
-			productReference = D577509A170457E700FFE722 /* ExifReader.app */;
+			name = ImageMetadataReader;
+			productName = ImageMetadataReader;
+			productReference = D577509A170457E700FFE722 /* ImageMetadataReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +142,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Arulprasad;
 			};
-			buildConfigurationList = D5775095170457E700FFE722 /* Build configuration list for PBXProject "ExifReader" */;
+			buildConfigurationList = D5775095170457E700FFE722 /* Build configuration list for PBXProject "ImageMetadataReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -153,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5775099170457E700FFE722 /* ExifReader */,
+				D5775099170457E700FFE722 /* ImageMetadataReader */,
 			);
 		};
 /* End PBXProject section */
@@ -179,8 +180,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57750AA170457E700FFE722 /* main.m in Sources */,
-				D57750AE170457E700FFE722 /* ERAppDelegate.m in Sources */,
-				D57750BA170457E700FFE722 /* ERViewController.m in Sources */,
+				D57750AE170457E700FFE722 /* IMRAppDelegate.m in Sources */,
+				D57750BA170457E700FFE722 /* IMRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +267,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ExifReader/ExifReader-Prefix.pch";
-				INFOPLIST_FILE = "ExifReader/ExifReader-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ImageMetadataReader/ImageMetadataReader-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ImageMetadataReader/ImageMetadataReader.plist";
+				PRODUCT_NAME = ImageMetadataReader;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,9 +278,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ExifReader/ExifReader-Prefix.pch";
-				INFOPLIST_FILE = "ExifReader/ExifReader-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ImageMetadataReader/ImageMetadataReader-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ImageMetadataReader/ImageMetadataReader.plist";
+				PRODUCT_NAME = ImageMetadataReader;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5775095170457E700FFE722 /* Build configuration list for PBXProject "ExifReader" */ = {
+		D5775095170457E700FFE722 /* Build configuration list for PBXProject "ImageMetadataReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D57750BB170457E700FFE722 /* Debug */,
@@ -296,13 +297,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D57750BD170457E700FFE722 /* Build configuration list for PBXNativeTarget "ExifReader" */ = {
+		D57750BD170457E700FFE722 /* Build configuration list for PBXNativeTarget "ImageMetadataReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D57750BE170457E700FFE722 /* Debug */,
 				D57750BF170457E700FFE722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

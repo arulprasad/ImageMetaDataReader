@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'ExifReader' target in the 'ExifReader' project
+// Prefix header for all source files of the 'ExifReader' target in the 'ImageMetaDataReader' project
 //
 
 #import <Availability.h>

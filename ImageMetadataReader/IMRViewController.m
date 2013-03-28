@@ -1,17 +1,17 @@
 //
-//  ERViewController.m
-//  ExifReader
+//  IMRViewController.m
+//  ImageMetaDataReader
 //
 //  Created by Arulprasad on 28/3/13.
 //  Copyright (c) 2013 Arulprasad. All rights reserved.
 //
 
-#import "ERViewController.h"
+#import "IMRViewController.h"
 
 #import <AssetsLibrary/AssetsLibrary.h>
 
 
-@interface ERViewController ()
+@interface IMRViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIButton *pickButton;
@@ -20,7 +20,7 @@
 @property (nonatomic) BOOL firstTimeView;
 @end
 
-@implementation ERViewController
+@implementation IMRViewController
 
 - (void)viewDidLoad
 {
