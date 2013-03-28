@@ -18,6 +18,7 @@
 		D57750B4170457E700FFE722 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D57750B3170457E700FFE722 /* Default-568h@2x.png */; };
 		D57750B7170457E700FFE722 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57750B5170457E700FFE722 /* MainStoryboard.storyboard */; };
 		D57750BA170457E700FFE722 /* ERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57750B9170457E700FFE722 /* ERViewController.m */; };
+		D57750C117045A5D00FFE722 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57750C017045A5D00FFE722 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D57750B6170457E700FFE722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D57750B8170457E700FFE722 /* ERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERViewController.h; sourceTree = "<group>"; };
 		D57750B9170457E700FFE722 /* ERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERViewController.m; sourceTree = "<group>"; };
+		D57750C017045A5D00FFE722 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57750C117045A5D00FFE722 /* AssetsLibrary.framework in Frameworks */,
 				D577509E170457E700FFE722 /* UIKit.framework in Frameworks */,
 				D57750A0170457E700FFE722 /* Foundation.framework in Frameworks */,
 				D57750A2170457E700FFE722 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		D5775091170457E700FFE722 = {
 			isa = PBXGroup;
 			children = (
+				D57750C017045A5D00FFE722 /* AssetsLibrary.framework */,
 				D57750A3170457E700FFE722 /* ExifReader */,
 				D577509C170457E700FFE722 /* Frameworks */,
 				D577509B170457E700FFE722 /* Products */,

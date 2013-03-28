@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ERViewController : UIViewController
+@interface ERViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
 
 @end
